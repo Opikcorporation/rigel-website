@@ -1616,6 +1616,8 @@ img.loaded {
   font-weight: 600;
   white-space: nowrap;
   opacity: 0;
+}
+.whatsapp-btn.visible .whatsapp-btn__text {
   animation: wa-text-fade 7s ease 1.5s infinite;
 }
 
