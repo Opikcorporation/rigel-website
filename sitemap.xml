@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://rigel.io/</loc><priority>1.0</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://rigel.io/platform.html</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://rigel.io/solutions.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://rigel.io/deployment.html</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://rigel.io/about.html</loc><priority>0.6</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://rigel.io/demo.html</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+</urlset>
