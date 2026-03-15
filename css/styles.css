@@ -1593,6 +1593,11 @@ img.loaded {
   white-space: nowrap;
   box-sizing: border-box;
   max-width: 44px;
+  opacity: 0; pointer-events: none; transform: translateY(12px);
+  transition: opacity var(--dur-fast) ease, transform var(--dur-fast) ease;
+}
+.whatsapp-btn.visible {
+  opacity: 1; pointer-events: auto; transform: translateY(0);
   animation: wa-expand 7s ease 1.5s infinite;
 }
 .whatsapp-btn:hover {

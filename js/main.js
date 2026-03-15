@@ -164,15 +164,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
   /* ---------- Back-to-top button ---------- */
   const backToTop = document.querySelector('.back-to-top');
+  const waBtn = document.querySelector('.whatsapp-btn');
   if (backToTop) {
-    const toggleBackToTop = () => {
-      backToTop.classList.toggle('visible', window.scrollY > 600);
+    const toggleFloatingBtns = () => {
+      const show = window.scrollY > 600;
+      backToTop.classList.toggle('visible', show);
+      if (waBtn) waBtn.classList.toggle('visible', show);
     };
-    window.addEventListener('scroll', toggleBackToTop, { passive: true });
+    window.addEventListener('scroll', toggleFloatingBtns, { passive: true });
     backToTop.addEventListener('click', () => {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     });
-    toggleBackToTop();
+    toggleFloatingBtns();
   }
 
   /* ---------- Keyboard: Escape closes mobile menu ---------- */
