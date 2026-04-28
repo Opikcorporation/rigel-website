@@ -832,13 +832,8 @@ body.menu-open { overflow: hidden; }
   transition: all var(--dur) var(--ease), transform var(--dur) var(--ease);
 }
 
-/* card unique gradient per card */
-.ai-card:nth-child(1) { --card-color: 16, 185, 129;  --card-color-2: 6, 182, 212; }
-.ai-card:nth-child(2) { --card-color: 244, 63, 94;   --card-color-2: 245, 158, 11; }
-.ai-card:nth-child(3) { --card-color: 249, 115, 22;  --card-color-2: 234, 179, 8; }
-.ai-card:nth-child(4) { --card-color: 139, 92, 246;  --card-color-2: 244, 63, 94; }
-.ai-card:nth-child(5) { --card-color: 6, 182, 212;   --card-color-2: 16, 185, 129; }
-.ai-card:nth-child(6) { --card-color: 245, 158, 11;  --card-color-2: 249, 115, 22; }
+/* card color: subtle accent mauve for all */
+.ai-card { --card-color: var(--accent-rgb); --card-color-2: var(--accent-light-rgb); }
 
 .ai-card::before {
   content: '';
