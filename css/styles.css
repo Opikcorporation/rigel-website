@@ -895,7 +895,6 @@ body.menu-open { overflow: hidden; }
   padding: var(--s-3);
   background: rgba(var(--card-color), 0.05);
   border-radius: var(--r-sm);
-  border-left: 2px solid rgba(var(--card-color), 0.35);
 }
 
 .ai-card__example span {
