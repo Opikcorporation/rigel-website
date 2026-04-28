@@ -832,8 +832,8 @@ body.menu-open { overflow: hidden; }
   transition: all var(--dur) var(--ease), transform var(--dur) var(--ease);
 }
 
-/* card color: subtle accent mauve for all */
-.ai-card { --card-color: var(--accent-rgb); --card-color-2: var(--accent-light-rgb); }
+/* card color: light mauve for all */
+.ai-card { --card-color: var(--accent-light-rgb); --card-color-2: 196, 181, 253; }
 
 .ai-card::before {
   content: '';
